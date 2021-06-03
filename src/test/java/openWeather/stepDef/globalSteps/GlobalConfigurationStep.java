@@ -1,4 +1,4 @@
-package stepDef.globalSteps;
+package openWeather.stepDef.globalSteps;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
@@ -10,8 +10,8 @@ import java.util.Map;
 public class GlobalConfigurationStep {
     private final ReqSpecBuilder reqSpecBuilder;
 
-    public GlobalConfigurationStep(ReqSpecBuilder reqSpecBuilder) {
-        this.reqSpecBuilder = reqSpecBuilder;
+    public GlobalConfigurationStep() {
+        this.reqSpecBuilder = new ReqSpecBuilder();
     }
 
     @When("I set base URI")

@@ -6,7 +6,7 @@ Feature: Open Weather API feature
       | Accept       | */*              |
       | Content-Type | application/json |
     And I set query param
-      | appid | apiKey |
+      | appid | fc02d38d0faa30dd313d569d4413a1b3 |
 
   Scenario: Verify Open Weather Station
 
